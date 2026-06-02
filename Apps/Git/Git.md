@@ -10,7 +10,7 @@ Create repository in GitHub
 
 From the Quick setup section, select SSH and replace ```git@github.com:Timbo74/bob.git``` below with the repository URL.
 ```
-echo "# bob" >> README.md
+echo "# Repository Title Goes Here" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
