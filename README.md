@@ -5,13 +5,20 @@ This is my attemp to document my learnings of all things nerdy, technical and fu
 
 https://github.com/Timbo74/AKOMT
 
+### Clone Repository into current folder
 
-### Basic Git Usage
+```powershell
+git clone git@github.com:Timbo74/AKOMT.git
+```
+
+### Push to Repository
+
 ```powershell
 git add .
 git commit -m "cleaned up folders"
 git push
 ```
+
 One liner:
 
 ```powershell
