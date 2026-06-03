@@ -1,7 +1,16 @@
 # Terminal
 
-## Useful Tips
+## Settings
 
+### Open the default settings file (defaults.json)
+
+Open a Terminal and press ```Control + Alt + Comma (,)```, the default settings file will be opened in your text editor.
+
+### Open user settings file (settings.json)
+
+Open a Terminal and press ```Control + Shift + Comma (,)```, your settings.json file will be opened in your text editor.
+
+## Useful Tips
 
 ### Move a tab into it's own window
 
