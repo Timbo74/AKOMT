@@ -18,7 +18,7 @@ Pid: 0x01E0
 ```
 Then run the following: 
 
-```
+```bash
 sudo chown $USER:$USER /dev/hidraw*
 ```
 
