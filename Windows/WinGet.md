@@ -45,7 +45,7 @@ winget show AppId --versions
 
 ## Pin
 
-Manage package pins.
+Manage package pins.  Allows you to pin an app to a specific version so that it won't be upgraded with a ```winget upgrade``` or ```winget install``` command.
 
 ### Pin to a specific version:
 
