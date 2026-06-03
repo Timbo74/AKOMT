@@ -2,46 +2,71 @@
 *Reference*
 https://learn.microsoft.com/en-us/windows/package-manager/
 
-# Install
-`winget install AppID --version VersionNumber`
+## Install
 
-# List
+Installs the given package.
 
-## List installed apps
+```
+winget install AppID --version VersionNumber
+```
+
+## List
+
+Display installed packages.
+
+### List installed apps
+
 ```
 winget list
 ```
 
-## Identify apps with pending updates
+### Identify apps with pending updates
+
 ```
 winget list --upgrade-available
 ```
 
-# Show
+## Search
 
-## Show app versions
+Find and show basic info of packages.
+
+```
+winget search <query>
+```
+
+## Show
+Shows information about a package.
+
+### Show app versions
+
 ```
 winget show AppId --versions
 ```
 
-# Pin
+## Pin
 
-## Pin to a specific version:
+Manage package pins.
+
+### Pin to a specific version:
+
 ```
 winget pin add --id AppID --version VersionNumber
 ```
 
-## Pin currently installed version:
+### Pin currently installed version:
+
 ```
 winget pin add --id AppID --installed
 ```
 
-## View all active pins:
+### View all active pins:
+
 ```
 winget pin list
 ```
 
-## Remove a pin
+### Remove a pin
+
 ```
 winget pin remove --id AppID
 ```
