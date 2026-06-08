@@ -1,0 +1,28 @@
+[mgr]
+ratio=[2,4,3]
+
+[preview]
+image_quality=90
+
+[opener]
+edit = [
+    { run = "wt -w 0 nt nvim %s", block = false, for = "windows", desc = "Nvim"},
+    { run = "code %s", block = false, for = "windows", desc = "Code" },
+    { run = "wt -w 0 new-tab -d %d1", block = false, for = "windows", desc = "Terminal - Tab" },
+    { run = "wt -w 0 split-pane -d %d1", block = false, for = "windows", desc = "Terminal - Pane Vertical" },
+    { run = "wt -w 0 split-pane -H -d %d1", block = false, for = "windows", desc = "Terminal - Pane Horizontal" },
+]
+
+edge = [
+    { run = 'start msedge "$@"', block = false, desc = "Edge", for = "windows" }
+]
+
+#[[open.prepend_rules]]
+#url = "*/"
+#use = []
+
+
+[open]
+prepend_rules = [
+    { name = "*.md", use = "edge"}
+]
