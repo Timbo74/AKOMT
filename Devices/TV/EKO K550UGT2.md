@@ -1,5 +1,23 @@
 # EKO K550UGT2 
 
+55" 4K Ultra HD TV
+Model: K550UGT2
+SN: AGL 615 353 0229
+
+## Support 
+
+help@eko-entertainment.com.au
+02 8279 8606
+
+### Support Calls
+
+15/06/2026 - 11:57am
+--------------------
+1 - TV Enquiry
+
+
+
+
 ## Troubleshooting
 
 ### Factory Reset via Recovery Mode 
