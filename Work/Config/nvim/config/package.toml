@@ -1,0 +1,24 @@
+[[plugin.deps]]
+use = "macydnah/office"
+rev = "41ebef8"
+hash = "1d856e7731bd5b3c5ed56112f36b256c"
+
+[[plugin.deps]]
+use = "Ape/smart-enter"
+rev = "eff8665"
+hash = "2fbd5235633f6e2d3fbed2692744a6b5"
+
+[[flavor.deps]]
+use = "kmlupreti/ayu-dark"
+rev = "00804da"
+hash = "e17345598c7bead2998fc1260e5e588f"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:dracula"
+rev = "0f9204b"
+hash = "fee9eeb8bf3ac3ed251812cbc0452bbd"
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "8e6296f"
+hash = "49258e379077f4b0d2e62dfdb131c7d"
