@@ -1,6 +1,12 @@
 # PowerShell
 
+**Reference:**
+ - https://learn.microsoft.com/en-au/powershell/
+
 ## Installation & Updating
+
+**Reference:**
+ - https://github.com/PowerShell/PowerShell
 
 ### Updating PowerShell
 
@@ -19,6 +25,7 @@ You can change the behavior of the update notification by setting the ```POWERSH
   - Preview/RC releases notify of updates to GA and preview releases
 - ```LTS``` only notifies of updates to long-term-servicing (LTS) GA releases
 
+**NOTE**: VSCode can be done with this setting ```"powershell.promptToUpdatePowerShell": false```.
 
 ## Command History / Autocomplete 
 
