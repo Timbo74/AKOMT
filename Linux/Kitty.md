@@ -19,3 +19,10 @@ ask                    desktop-ui             hyperlinked-grep       panel      
 choose-files           diff                   icat                   query-terminal         ssh                    update-self
 choose-fonts           edit-in-kitty          mouse-demo             quick-access-terminal  themes
 ```
+
+## Tabs
+
+New tab                 ```control + shift + t```
+Close tab               ```control + shift + q```
+Move tab new window     ```control + alt + m```.
+Move to next tab        ```control + shift + arrow```

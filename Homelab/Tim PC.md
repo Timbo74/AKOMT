@@ -1,12 +1,12 @@
 ## Apps
 
-- Yazi
+- Yazi - [GitHub](https://github.com/sxyazi/yazi).
 - Midnight Commander
 - NVIM
 - TMUX
 - Nala
 - Ghostty
-
+- Arctis Manager - [GitHub](https://github.com/elegos/Linux-Arctis-Manager).
 ## Themes
 
 Tokyo Night
