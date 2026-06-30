@@ -13,7 +13,7 @@ Corrupted web caches frequently trigger this error.
 
 ### option 2: Switch to Prism Launcher
 1. Open your terminal or your application grid (Discover/Software Center).
-2. Install Prism Launcher as a Flatpak: flatpak install flathub org.prismlauncher.PrismLauncher
+2. Install Prism Launcher as a Flatpak: ```flatpak install flathub org.prismlauncher.PrismLauncher```
 3. Open Prism Launcher and complete the setup wizard.
 4. Go to Settings > Accounts > Microsoft, and click Add Account.
 5. Follow the inline URL verification process to log into your Microsoft Account.
