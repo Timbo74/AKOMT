@@ -32,6 +32,7 @@ This is an overview of the most commonly used commands for each mode, full a lis
 |``` << ```|shift N lines one 'shiftwidth' leftwards|
 |``` >> ```|shift N lines one 'shiftwidth' rightwards|
 |``` $ ```|To the end of the line.  When a count is given also go [count - 1] lines downward, or as far is possible.|
+|``` % ```|find the next (curly/square) bracket on this line and go to its match, or go to matching comment bracket, or go to matching preprocessor directive.|
 |``` `( ```|cursor to the start of the current sentence|
 |``` `) ```|cursor to the end of the current sentence|
 |``` `{ ```|cursor to the start of the current paragraph|
