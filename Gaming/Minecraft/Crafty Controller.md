@@ -9,9 +9,9 @@
 
 Deploy via community script (see link above). 
 
-URL: ```<IPaddress>:8443```
-Username: ```admin```
-Password: ```cat ~/crafty-controller.creds```
+**URL**: ```<IPaddress>:8443```  
+**Username**: ```admin```  
+**Password**: ```cat ~/crafty-controller.creds```  
 
 
 ### Mincraft Server

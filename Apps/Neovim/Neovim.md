@@ -29,6 +29,9 @@ This is an overview of the most commonly used commands for each mode, full a lis
 
 |Command|Description|
 |---|---|
+|``` . ```|repeat last change with count replaced with N|
+|``` ~ ```|Toggle the case of the letter under the cursor|
+|``` /{pattern}<CR> ```|search forward for the Nth occurrence of {pattern}|
 |``` << ```|shift N lines one 'shiftwidth' leftwards|
 |``` >> ```|shift N lines one 'shiftwidth' rightwards|
 |``` $ ```|To the end of the line.  When a count is given also go [count - 1] lines downward, or as far is possible.|
@@ -54,12 +57,12 @@ This is an overview of the most commonly used commands for each mode, full a lis
 |``` c ```|delete highlighted area and start insert|
 
 ### Visual Block Mode
-Enter by pressing ```control + v```, typing the {commnds} and then pressing ```<ESC>``` to complete the command.
+Enter by pressing ```control + v``` or ```control + q```, typing the {commands} and then pressing ```<ESC>``` to complete the command.
+
 |Command|Description|
 |---|---|
 |``` A ```|block mode: append same text in all lines, after the highlighted area|
 |``` I ```|block mode: insert same text in all lines, before the highlighted area|
- 
 
 ## Command Ranges
 
@@ -91,6 +94,37 @@ The first line always has number one.  How about the last line?  The "$" charact
 :.,$s/yes/no/
 ```
 
+### Visual Mode and Ranges
+You can select text with Visual mode.  If you then press ":" to start a colon command, you will see this:
+
+```
+:'<,'>
+```
+
+Now you can type the command and it will be applied to the range of lines that was visually selected.
+	Note:
+	When using Visual mode to select part of a line, or using CTRL-V to
+	select a block of text, the colon commands will still apply to whole
+	lines.  This might change in a future version of Vim.
+
+The '< and '> are actually marks, placed at the start and end of the Visual selection.  The marks remain at their position until another Visual selection is made.  Thus you can use the "'<" command to jump to position where the Visual area started.  And you can mix the marks with other items:
+
+```
+:'>,$
+```
+
+This addresses the lines from the end of the Visual area to the end of the file.
+
+### A Number of Lines
+When you know how many lines you want to change, you can type the number and then ":".  For example, when you type "5:", you will get:
+
+```
+:.,.+4
+```
+
+Now you can type the command you want to use.  It will use the range "." (current line) until ".+4" (four lines down).  Thus it spans five lines.
+
+See also :range, for an overview of all possible ways to specify a range.
 
 ## Macros
 
