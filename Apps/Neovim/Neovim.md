@@ -29,7 +29,8 @@ This is an overview of the most commonly used commands for each mode, full a lis
 
 |Command|Description|
 |---|---|
-|``` . ```|repeat last change with count replaced with N|
+|``` . ```|repeat last change 1 time|
+|``` #. ```|repeat last change # times|
 |``` ~ ```|Toggle the case of the letter under the cursor|
 |``` /{pattern}<CR> ```|search forward for the Nth occurrence of {pattern}|
 |``` << ```|shift N lines one 'shiftwidth' leftwards|
