@@ -1,7 +1,6 @@
-# Approximate Knowledge of Many Things
-This is my attemp to document my learnings of all things nerdy, technical and fun.
-
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3de084e9-dfc2-4f97-9dff-cc32201b74ed" />
+
+This is my attemp to document my learnings of all things nerdy, technical and fun.
 
 ## GitHub
 
