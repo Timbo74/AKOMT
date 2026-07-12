@@ -5,11 +5,19 @@
 
 ## Config
 
-You can open the **config file** within kitty by pressing ```ctrl+shift+f2```.
+You can open the **config file** within kitty by pressing ```ctrl+shift+f2```, and reload it by pressing ```ctrl+shift+f5```.
 
 ### Fonts
 
 Run the ```kitten choose-fonts``` command to use preview fonts and edit the ```kitten.cfg```.
+
+### Titlebar in Gnome
+
+If the Kitty window is not rendering the native title for the window manager then add the following line to the ```kitty.conf`` file to force X11 mode.
+
+```
+inux_display_server x11
+```
 
 
 ## Kitten Commands
@@ -45,9 +53,9 @@ choose-fonts           edit-in-kitty          mouse-demo             quick-acces
 |New window| ```control + shift + enter```  |
 |Close window|```control + shift + w```|
 |Resize window|```control + shift + r```|
-|Next/Prew window|```control + shift + [/]```|
-|Move window back/forward|```control + shift + b/f ```|
+|Next window|```control + shift + [```|
+|Previous window|```control + shift + ]```|
+|Move window back|```control + shift + b```|
+|Move window forward|```control + shift + f```|
 |Move window to top|```control + shift + ` ```|
 |Focus specific window|```control + shift + 1/2/3 etc```|
-||```control + shift + ```|
-||```control + shift + ```|
