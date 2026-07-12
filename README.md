@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3de084e9-dfc2-4f97-9dff-cc32201b74ed" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ea04b104-cc2d-4c08-be20-ef11592b0f5b" />
 
 This is my attemp to document my learnings of all things nerdy, technical and fun.
 
