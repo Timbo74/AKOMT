@@ -30,6 +30,11 @@ Display installed packages.
 winget list
 ```
 
+#### List apps matching keyword
+```
+winget list --name keyword
+```
+
 #### Identify apps with pending updates
 
 ```
