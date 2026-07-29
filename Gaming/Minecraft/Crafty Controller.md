@@ -35,3 +35,8 @@ TBD: via version
 
 
 enforce-secure-profile=false
+
+
+## Backup to SharePoint
+/opt/crafty-controller/crafty/crafty-4/backups/
+https://timctechtimbo74.sharepoint.com/sites/Minecraft
