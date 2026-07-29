@@ -7,6 +7,8 @@
 - Nala
 - Ghostty
 - Arctis Manager - [GitHub](https://github.com/elegos/Linux-Arctis-Manager).
+- Espanso
+
 ## Themes
 
 Tokyo Night
