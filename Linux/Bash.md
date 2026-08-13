@@ -92,4 +92,23 @@ declare -p
 ```
 Lists all variables in a format that shows how they were defined
 
-_Last updated: 2026-05-11_
+# Command History
+
+## Search bash based on typed command
+```
+CTRL+A ... (copy to the beginning of the line)
+CTRL+R ... (start a reverse search)
+CTRL+Y ... (paste the copied line)
+CTRL+R ... (keep searching or)
+CTRL+S ... (search in the other direction*)
+```
+
+Note: CTRL+S will suspend your terminal unless you explicitly revoked this behavior with
+
+```bash
+[[ $- == *i* ]] && stty -ixon
+```
+
+in your .bashrc
+
+_Last updated: 13/8/2026_
