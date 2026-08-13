@@ -3,7 +3,7 @@
 ## To Do
 https://github.com/Donkie/Spoolman/tree/master
 
-## Firmware
+## Offical Firmware
 The Snapmaker U1 uses Klipper as its core firmware for motion and device control, while utilizing Moonraker as the API and orchestration layer to manage communication with web clients like Fluidd or Mainsail. 
 
 ### Klipper
@@ -11,6 +11,14 @@ Handles the low-level hardware control and motion logic, with approximately 20% 
 
 ### Moonraker
 Acts as the web server that exposes APIs for client applications to interact with the printer, enabling remote monitoring and control.  
+
+### Getting the Camera working in Fluidd
+https://forum.snapmaker.com/t/camera-feed-in-fluid-interface/40853/8
+
+
+## Extended Firmware
+
+https://github.com/paxx12-snapmaker-u1/SnapmakerU1-Extended-Firmware
 
 
 ## Printing Times
