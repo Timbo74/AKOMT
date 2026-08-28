@@ -49,6 +49,64 @@ This is an overview of the most commonly used commands for each mode, full a lis
 |``` e ```||
 |``` e ```||
 
+#### Deleting Text
+##### Character & Word Deletions
+|Command|Description|
+|---|---|
+|``` x ```|Deletes the single character under the cursor|
+|``` X ```|Deletes the single character before the cursor.|
+|``` dw ```|Deletes from the cursor to the start of the next word.|
+|``` diw ```|Deletes the entire word under the cursor ("delete inner word").|
+|``` daw ```|Deletes the word and its surrounding space ("delete a word"). |
+
+##### Line & Text Block Deletions
+* dd: Deletes the entire current line.
+* D (or d$): Deletes from the cursor to the end of the line.
+* d0: Deletes from the cursor back to the start of the line.
+* dk: Deletes the current line and the line above it.
+
+##### Code Structure Deletions (Surroundings)
+* di( or di{: Deletes everything inside the parentheses or curly brackets.
+* da( or da{: Deletes the brackets and everything inside them.
+* di": Deletes everything inside the double quotes.
+
+##### Combining with Numbers (Multipliers)
+You can prefix almost any command with a number to repeat it:
+
+* 3dd: Deletes 3 lines.
+* 5dw: Deletes 5 words.
+
+#### Search for Text
+##### Basic Document Search
+
+* /pattern: Searches forward for "pattern". Press Enter to execute.
+* ?pattern: Searches backward for "pattern".
+* n: Jumps to the next match in the direction of your search.
+* N: Jumps to the previous match in the opposite direction. [1, 2, 3, 4, 5] 
+
+##### Search Word Under Cursor
+
+* *: Searches forward for the exact word currently under your cursor.
+* #: Searches backward for the exact word currently under your cursor. [6] 
+
+##### Current Line Character Finding
+
+* fx: Jumps forward to the next occurrence of character x on the current line.
+* Fx: Jumps backward to the previous occurrence of character x.
+* tx: Jumps forward till just before character x.
+* Tx: Jumps backward till just after character x.
+* ;: Repeats the last line-find command (f, F, t, or T) forward.
+* ,: Repeats the last line-find command backward. [7, 8, 9, 10, 11] 
+
+##### Helpful Search Settings
+To make these shortcuts better, add these to your init.lua or init.vim:
+
+* :set incsearch: Highlights matches instantly as you type your search.
+* :set hlsearch: Keeps matches highlighted after you press Enter (use :noh to clear highlights).
+* :set ignorecase smartcase: Searches case-insensitively, unless you type a capital letter.
+
+
+
 ### Visual Mode
 |Command|Description|
 |---|---|
