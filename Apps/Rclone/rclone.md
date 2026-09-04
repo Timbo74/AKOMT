@@ -95,7 +95,12 @@ Keep this remote <y>
 rclone copy /path/to/local remote:folder --transfers 2 --onedrive-chunk-size 10M
 ```
 
-### Personal Vault: error reading source directory:
+#### Personal Vault: error reading source directory:
 ```bash
 --exclude "/Personal Vault/**"
+```
+
+#### OneDrive or SharePoint slowing down or stopping due to transaction limits
+```bash
+rclone copy source: remote: --tpslimit 10 --onedrive-delta --fast-list --metadata --dry-run --combined C:\Temp\od-mc-username-date.log
 ```
