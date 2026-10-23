@@ -82,6 +82,7 @@ You can prefix almost any command with a number to repeat it:
 * ```3dd``` deletes 3 lines.
 * ```5dw``` deletes 5 words.
 
+
 #### Search for Text
 ##### Basic Document Search
 
@@ -111,7 +112,31 @@ To make these shortcuts better, add these to your ```init.lua``` or ```init.vim`
 * ``` :set hlsearch ``` keeps matches highlighted after you press Enter (use ``` :noh ``` to clear highlights).
 * ``` :set ignorecase smartcase ``` searches case-insensitively, unless you type a capital letter.
 
+#### Replace/Substitute text
+To replace text on the current line:
 
+```
+# Finds the first occurance of string-to-find on this line and replaces it with string-to-replace.
+:substitute/string-to-find/string-to-replace
+
+# Finds all occurances of string-to-find on this line and replaces them with string-to-replace.
+:substitute/string-to-find/string-to-replace/g
+```
+
+To replace text on all lines replace ```:substitute``` with ```:%substitute```: 
+```
+# Finds the first occurance of string-to-find on all lines and replaces it with string-to-replace.
+:%substitute/string-to-find/string-to-replace
+
+# Finds all occurances of string-to-find on all lines and  replaces them with string-to-replace.
+:%substitute/string-to-find/string-to-replace/g
+```
+
+Some search terms may need be escaped with a ``` \ ``` character to treat the special characters as literal text.
+
+```
+:%substitute/ - /\[ ]/g
+```
 
 ### Visual Mode
 * ``` J ``` join the Highlighted lines.
@@ -201,8 +226,6 @@ There are three steps:
 1. To finish recording, press ```q``` (without any extra character).
 
 You can now execute the macro by typing the command ```@{register}```.
-
-Now that you have done the work once, you can repeat the change by typing the command ```@a``` three times.
 
 The ```@a``` command can be preceded by a count, which will cause the macro to be executed that number of times.
 
