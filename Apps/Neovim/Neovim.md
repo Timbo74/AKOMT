@@ -24,6 +24,9 @@ Activated by typing : in Normal Mode. This opens an input bar at the bottom of t
 
 This is an overview of the most commonly used commands for each mode, full a list of all commands please refer to the url above. 
 
+
+
+
 ### Insert Mode
 
 
@@ -94,42 +97,42 @@ You can prefix almost any command with a number to repeat it:
 * ``` n ``` jumps to the next match in the direction of your search.
 * ``` N ``` jumps to the previous match in the opposite direction.
 
-##### Search Word Under Cursor
+    ##### Search Word Under Cursor
 
-* ``` * ``` searches forward for the exact word currently under your cursor.
-* ``` # ``` searches backward for the exact word currently under your cursor.
+    * ``` * ``` searches forward for the exact word currently under your cursor.
+    * ``` # ``` searches backward for the exact word currently under your cursor.
 
-##### Current Line Character Finding
+    ##### Current Line Character Finding
 
-* ``` fx ``` jumps forward to the next occurrence of character x on the current line.
-* ``` Fx ``` jumps backward to the previous occurrence of character x.
-* ``` tx ``` jumps forward till just before character x.
-* ``` Tx ``` jumps backward till just after character x.
-* ``` ; ``` repeats the last line-find command (f, F, t, or T) forward.
-* ``` , ``` repeats the last line-find command backward.
+    * ``` fx ``` jumps forward to the next occurrence of character x on the current line.
+    * ``` Fx ``` jumps backward to the previous occurrence of character x.
+    * ``` tx ``` jumps forward till just before character x.
+    * ``` Tx ``` jumps backward till just after character x.
+    * ``` ; ``` repeats the last line-find command (f, F, t, or T) forward.
+    * ``` , ``` repeats the last line-find command backward.
 
-##### Helpful Search Settings
-To make these shortcuts better, add these to your ```init.lua``` or ```init.vim```:
+    ##### Helpful Search Settings
+    To make these shortcuts better, add these to your ```init.lua``` or ```init.vim```:
 
-* ``` :set incsearch ``` highlights matches instantly as you type your search.
-* ``` :set hlsearch ``` keeps matches highlighted after you press Enter (use ``` :noh ``` to clear highlights).
-* ``` :set ignorecase smartcase ``` searches case-insensitively, unless you type a capital letter.
+    * ``` :set incsearch ``` highlights matches instantly as you type your search.
+    * ``` :set hlsearch ``` keeps matches highlighted after you press Enter (use ``` :noh ``` to clear highlights).
+    * ``` :set ignorecase smartcase ``` searches case-insensitively, unless you type a capital letter.
 
-#### Replace/Substitute text
-To replace text on the current line:
+    #### Replace/Substitute text
+    To replace text on the current line:
 
-```
-# Finds the first occurance of string-to-find on this line and replaces it with string-to-replace.
-:substitute/string-to-find/string-to-replace
+    ```
+    # Finds the first occurance of string-to-find on this line and replaces it with string-to-replace.
+    :substitute/string-to-find/string-to-replace
 
-# Finds all occurances of string-to-find on this line and replaces them with string-to-replace.
-:substitute/string-to-find/string-to-replace/g
-```
+    # Finds all occurances of string-to-find on this line and replaces them with string-to-replace.
+    :substitute/string-to-find/string-to-replace/g
+    ```
 
-To replace text on all lines replace ```:substitute``` with ```:%substitute```: 
-```
-# Finds the first occurance of string-to-find on all lines and replaces it with string-to-replace.
-:%substitute/string-to-find/string-to-replace
+    To replace text on all lines replace ```:substitute``` with ```:%substitute```: 
+    ```
+    # Finds the first occurance of string-to-find on all lines and replaces it with string-to-replace.
+    :%substitute/string-to-find/string-to-replace
 
 # Finds all occurances of string-to-find on all lines and  replaces them with string-to-replace.
 :%substitute/string-to-find/string-to-replace/g
