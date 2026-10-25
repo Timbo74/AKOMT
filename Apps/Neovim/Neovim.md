@@ -28,6 +28,9 @@ This is an overview of the most commonly used commands for each mode, full a lis
 
 
 ### Normal Mode
+- ``` <Esc> ``` or  ```Control [ ``` to exit from Insert or Replace mode and go back to Normal mode.
+- ``` R ``` Enter Replace (Overtype) mode.
+
 * ``` . ``` repeat last change 1 time
 * ``` #. ``` repeat last change # times
 
