@@ -14,6 +14,13 @@ Depending on where you place the dot relative to the colon (:), it controls whet
 |```=A1.:.A1000```|Trims Both Ends.|Removes empty rows from both the top and the bottom.|Messy sheets where data is floating in the middle of a large range.|
 
 
+||A|B|C|
+|---|---|---|---|
+|1|1|100|=B2:.B22*C2:.C22|
+|2|2|110||
+|3|4|105||
+|4|8|107||
+
 ## Keyboard Shortcuts
 
 ### On Selected Cells
