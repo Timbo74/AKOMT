@@ -11,6 +11,13 @@ git config --global user.email "coombes74.tc@gmail.com"
 git config --global user.name "Tim Coombes"
 ```
 
+### .GITIGNORE files
+```
+file-name-to-ignore
+file-with-wildcard-to-ignore*
+/folderpath-to-ignore
+```
+
 ## Repositories
 
 ### Creating a repo from an existing folder
