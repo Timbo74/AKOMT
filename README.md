@@ -25,3 +25,6 @@ One liner:
 ```powershell
 git add . && git commit -m "cleaned up folders" && git push
 ```
+
+### Updates
+5/11/2026 - Added ```.gitignore``` to ignore ```/.obsidian``` path if it is present.
