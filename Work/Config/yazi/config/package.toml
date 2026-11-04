@@ -5,8 +5,13 @@ hash = "1d856e7731bd5b3c5ed56112f36b256c"
 
 [[plugin.deps]]
 use = "Ape/smart-enter"
-rev = "eff8665"
-hash = "2fbd5235633f6e2d3fbed2692744a6b5"
+rev = "1c835cc"
+hash = "388549e452690b06535968d596e913b6"
+
+[[plugin.deps]]
+use = "KKV9/compress"
+rev = "80e5268"
+hash = "868db729374b97871bc30b96d0e9061f"
 
 [[flavor.deps]]
 use = "kmlupreti/ayu-dark"
