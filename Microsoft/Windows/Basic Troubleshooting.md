@@ -68,7 +68,6 @@ ifIndex InterfaceAlias                  AddressFamily...
 ### Get IP Addresses
 ```powershell
 Get-NetIPAddress | Where {$_.AddressFamily -eq "IPv4"}
-
 Get-NetIPAddress | Where {$_.IPAddress -like "192.*"}
 ```
 
