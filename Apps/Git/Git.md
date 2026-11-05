@@ -11,6 +11,15 @@ git config --global user.email "coombes74.tc@gmail.com"
 git config --global user.name "Tim Coombes"
 ```
 
+### .GITIGNORE files
+Note that `.gitignore` only affects **untracked** files; if the folder was already tracked, you must run `git rm -r --cached <folder-name>` to remove it from tracking before ignoring it.
+
+```
+file-name-to-ignore
+file-with-wildcard-to-ignore*
+/folderpath-to-ignore
+```
+
 ## Repositories
 
 ### Creating a repo from an existing folder
