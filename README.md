@@ -5,8 +5,8 @@ This is my attempt to document my learnings of all things nerdy, technical and f
 ## Obsidian
 [Obsidian App](https://obsidian.md/)
 ### Plugins
-Git: [GitHub - Vinzent03/obsidian-git](https://github.com/vinzent03/obsidian-git)
-Script Viewer: [GitHub](https://github.com/viggomeesters/obsidian-script-viewer)
+- Git: [GitHub - Vinzent03/obsidian-git](https://github.com/vinzent03/obsidian-git)
+- Script Viewer: [GitHub](https://github.com/viggomeesters/obsidian-script-viewer)
 ## GitHub
 https://github.com/Timbo74/AKOMT
 ### Clone Repository into current folder
