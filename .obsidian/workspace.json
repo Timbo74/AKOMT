@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4056fba30868da28",
+        "id": "22840770d90e6f3f",
         "type": "tabs",
         "children": [
           {
-            "id": "dca5a1957db16d4f",
+            "id": "d6294d8209445005",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,8 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a552b286ef5bca33",
+  "active": "d6294d8209445005",
   "lastOpenFiles": [
+    "Apps/Git/Git.md",
+    "README.md",
     "Microsoft/Windows/Installation.md",
     "Microsoft/PowerShell/KB - PowerShell - Scripts.md",
     "Microsoft/Office/Excel/Excel.md",
