@@ -21,7 +21,6 @@ Test-NetConnection -ComputerName venkman.home -Port 443
 Get Serial Number 
 ```PowerShell
 Get-CimInstance Win32_BIOS
-
 Get-CimInstance Win32_BIOS | Select-Object SerialNumber
 ```
 
@@ -45,7 +44,6 @@ PowerShell
 ## Services
 ```powershell
 Get-Service -Name <string>
-
 Start-Service -Name <string>
 Stop-Service -Name <string>
 ```
