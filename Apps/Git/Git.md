@@ -39,7 +39,11 @@ git branch -M main
 git remote add origin git@github.com:Timbo74/bob.git
 git push -u origin main
 ```
-
+### Overwrite a local folder with the remote content
+```bash
+git fetch
+git reset --hard origin/<branch_name>
+```
 # Git Commands
 
 ## Add
