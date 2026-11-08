@@ -56,6 +56,7 @@ Paths may be as deep as required, e.g. ```remote:directory/subdirectory```.
 rclone config
 ```
 
+```
 n new remote
 enter name for new remote
 Select Microsoft OneDrive (as of version xyz: option 42)
@@ -87,6 +88,7 @@ config_driveid <1>
 Found drive root <y>
 
 Keep this remote <y>
+```
 
 ### Troubleshooting
 
