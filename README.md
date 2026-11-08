@@ -8,12 +8,14 @@ This is my attempt to document my learnings of all things nerdy, technical and f
 - Git: [GitHub](https://github.com/vinzent03/obsidian-git)
 - Script Viewer: [GitHub](https://github.com/viggomeesters/obsidian-script-viewer)
 ### Shortcuts
-Git: Commit-and-sync `Ctrl + Shift + C`
-Show Source Control (Git) tab in the right sidebar `Ctrl + Shift + G`
-Show file outline tab in the right sidebar  `Ctrl + Shift + O`
 
-Toggle left sidebar `Alt + Shift + ←`
-Toggle right sidebar `Alt + Shift + →`
+| Action                                             | Shortcut           |
+| -------------------------------------------------- | ------------------ |
+| Git: Commit-and-sync                               | `Ctrl + Shift + C` |
+| Show Source Control (Git) tab in the right sidebar | `Ctrl + Shift + G` |
+| Show file outline tab in the right sidebar         | `Ctrl + Shift + O` |
+| Toggle left sidebar                                | `Alt + Shift + ←`  |
+| Toggle right sidebar                               | `Alt + Shift + →`  |
 
 ## GitHub
 https://github.com/Timbo74/AKOMT
