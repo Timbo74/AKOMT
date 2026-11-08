@@ -19,11 +19,25 @@ Installs the given package.
 ```
 winget install AppID --version VersionNumber
 ```
-
+### Upgrade
+```
+winget upgrade --all
+```
+#### Version numbers cannot be determined
+```
+1 package(s) have version numbers that cannot be determined. 
+```
+Run the following command to show the apps with unknown versions.
+```
+ winget list --upgrade-available --unknown
+```
+If you're comfortable that the app is safe to upgrade then run the following command to install the version from the WinGet repository.
+```
+winget upgrade --all --include-unknown
+```
 ### List
 
 Display installed packages.
-
 #### List installed apps
 
 ```
