@@ -7,6 +7,9 @@ This is my attempt to document my learnings of all things nerdy, technical and f
 ### Plugins
 - Git: [GitHub](https://github.com/vinzent03/obsidian-git)
 - Script Viewer: [GitHub](https://github.com/viggomeesters/obsidian-script-viewer)
+### Shortcuts
+
+
 ## GitHub
 https://github.com/Timbo74/AKOMT
 ### Clone Repository into current folder
