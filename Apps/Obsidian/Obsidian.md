@@ -2,6 +2,35 @@
 
 - https://obsidian.md/
 - https://obsidian.md/help/
+## Configuration
+Linux - app settings
+```
+~.config/obsidian
+```
+Windows - app settings
+```
+%APPDATA%\Roaming\obsidian
+```
+Vault settings
+```
+<vault_folder>/.obsidian
+
+PS C:\<vauilt_folder>\.obsidian> ls
+
+    Directory: C:\<vault_folder>\.obsidian
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           5/11/2026 10:21 AM                plugins
+-a---           9/11/2026  9:26 AM              2 app.json
+-a---           9/11/2026  9:26 AM              2 appearance.json
+-a---           9/11/2026  9:27 AM            496 bookmarks.json
+-a---           9/11/2026  9:27 AM             20 community-plugins.json
+-a---           9/11/2026  9:26 AM            667 core-plugins.json
+-a---           6/11/2026 10:10 AM            493 graph.json
+-a---           9/11/2026  9:27 AM            420 hotkeys.json
+-a---           9/11/2026  9:27 AM           6654 workspace.json
+```
 ## Keyboard Shortcuts
 
 | Action               | Windows / Linux    |
