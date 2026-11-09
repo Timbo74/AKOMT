@@ -1,0 +1,2 @@
+## Boot into UEFI/BIOS
+Power off the device.  Press and hold down the `Volume Up` button (`F4`), press the power button  and continue holding down the `Volume Up` until the Microsoft Surface logo appears, then release the button.
