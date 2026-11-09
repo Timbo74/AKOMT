@@ -10,13 +10,14 @@ This is my attempt to document my learnings of all things nerdy, technical and f
 ### Hotkeys
 Recommended only, these settings are not tracked in GitHub.
 
-| Action                                             | Shortcut           |
-| -------------------------------------------------- | ------------------ |
-| Git: Commit-and-sync                               | `Ctrl + Shift + C` |
-| Git: open source code control view (right sidebar) | `Ctrl + Shift + G` |
-| Outline: show outline (right sidebar)              | `Ctrl + Shift + O` |
-| Toggle left sidebar                                | `Alt + Shift + ←`  |
-| Toggle right sidebar                               | `Alt + Shift + →`  |
+| Action                                        | Shortcut           |
+| --------------------------------------------- | ------------------ |
+| Git: Commit-and-sync                          | `Ctrl + Shift + C` |
+| Git: Open source control view (right sidebar) | `Ctrl + Shift + G` |
+| Outline: Show outline (right sidebar)         | `Ctrl + Shift + O` |
+| Files: Show file explorer (left sidebar)      | `Ctrl + Shift + D` |
+| Toggle left sidebar                           | `Alt + Shift + ←`  |
+| Toggle right sidebar                          | `Alt + Shift + →`  |
 
 ## GitHub
 https://github.com/Timbo74/AKOMT
