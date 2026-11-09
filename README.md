@@ -7,13 +7,14 @@ This is my attempt to document my learnings of all things nerdy, technical and f
 ### Plugins
 - Git: [GitHub](https://github.com/vinzent03/obsidian-git)
 - Script Viewer: [GitHub](https://github.com/viggomeesters/obsidian-script-viewer)
-### Shortcuts
+### Hotkeys
+Recommended only, these settings are not tracked in GitHub.
 
 | Action                                             | Shortcut           |
 | -------------------------------------------------- | ------------------ |
 | Git: Commit-and-sync                               | `Ctrl + Shift + C` |
-| Show Source Control (Git) tab in the right sidebar | `Ctrl + Shift + G` |
-| Show file outline tab in the right sidebar         | `Ctrl + Shift + O` |
+| Git: open source code control view (right sidebar) | `Ctrl + Shift + G` |
+| Outline: show outline (right sidebar)              | `Ctrl + Shift + O` |
 | Toggle left sidebar                                | `Alt + Shift + ←`  |
 | Toggle right sidebar                               | `Alt + Shift + →`  |
 
