@@ -1,5 +1,14 @@
 ## Troubleshooting
-Run `dsregcmd /status` the result should show `SSO State \ CloudTgt: YES`, if not then the `Cloud Kerberos Ticket Retrieval Enabled` setting must be enabled.
+Run `dsregcmd` command below, the result should show `SSO State \ CloudTgt: YES`.
+```Terminal
+dsregcmd /status | find /I "CloudTgt"
+```
+
+```powershell
+dsregcmd /status | find /I --% "CloudTgt"
+```
+
+If not then the `Cloud Kerberos Ticket Retrieval Enabled` setting must be enabled.
 
 Drive drops out after VPN or sleep then a KDC proxy policy must be configured.
 ### Error 1327
