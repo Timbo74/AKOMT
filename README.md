@@ -42,6 +42,6 @@ git add . && git commit -m "cleaned up folders" && git push
 ```
 
 ### Updates
-6/11/2026 - Added notes for the Obsidian app.
-5/11/2026 - Added ```.gitignore``` to ignore ```/.obsidian``` path if it is present.
-10/11/2026 - Updated `.gitignore` to allow syncing of `bookmarks.json` & `hotkeys.json` in the `.obsidian` folder.
+- 6/11/2026 - Added notes for the Obsidian app.
+- 5/11/2026 - Added ```.gitignore``` to ignore ```/.obsidian``` path if it is present.
+- 10/11/2026 - Updated `.gitignore` to allow syncing of `bookmarks.json` & `hotkeys.json` in the `.obsidian` folder.
