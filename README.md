@@ -1,5 +1,5 @@
 ![AKOMT Banner Image](https://github.com/user-attachments/assets/36ef1733-0b3a-493e-9115-a36ff9249c28)
-This is a long term repository for all things things nerdy, technical and fun that I've discovered, learned,  Googled or AI'd into into my head.
+This is a long term repository for all things things nerdy, technical and fun that I've discovered, learned,  Googled or AI'd into into my head.  Where possible all files are in Markdown and have been created using either Obsidian or by hand via Neovim.
 ## Obsidian
 [Obsidian App](https://obsidian.md/)
 ### Plugins
