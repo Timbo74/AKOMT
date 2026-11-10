@@ -1,7 +1,5 @@
-<img alt="image" src="https://github.com/user-attachments/assets/36ef1733-0b3a-493e-9115-a36ff9249c28" />
-
+![](https://github.com/user-attachments/assets/36ef1733-0b3a-493e-9115-a36ff9249c28)
 This is my attempt to document my learnings of all things nerdy, technical and fun.
-
 ## Obsidian
 [Obsidian App](https://obsidian.md/)
 ### Plugins
