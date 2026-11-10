@@ -32,9 +32,7 @@ git add .
 git commit -m "cleaned up folders"
 git push
 ```
-
-One liner:
-
+One liner version:
 ```powershell
 git add . && git commit -m "cleaned up folders" && git push
 ```
