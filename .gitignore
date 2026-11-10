@@ -1,1 +1,3 @@
-/.obsidian/
+/.obsidian/*
+!/.obsidian/bookmarks.json
+!/.obsidian/hotkeys.json
