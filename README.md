@@ -20,13 +20,11 @@ Recommended only, these settings are not tracked in GitHub.
 ## GitHub
 https://github.com/Timbo74/AKOMT
 ### Clone Repository into current folder
-
 ```powershell
 git clone git@github.com:Timbo74/AKOMT.git
 ```
 
 ### Push to Repository
-
 ```powershell
 git add .
 git commit -m "cleaned up folders"
