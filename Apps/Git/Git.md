@@ -1,3 +1,9 @@
+# TL;DR
+```
+git commit
+git pull
+git push
+```
 # Git & Github
 ```text
 https://github.com/Timbo74/
