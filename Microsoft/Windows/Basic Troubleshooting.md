@@ -48,6 +48,10 @@ Start-Service -Name <string>
 Stop-Service -Name <string>
 ```
 
+## Hardware
+### Display
+Restart the graphics driver: 
+Press `Windows Key + Ctrl + Shift + B` simultaneously.
 ## Networking
 
 ### List Network Interfaces
