@@ -8,6 +8,7 @@ views:
       - file.name
       - file.folder
       - file.mtime
+      - Priority
     sort:
       - property: formula.Untitled
         direction: DESC
