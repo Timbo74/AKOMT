@@ -1,6 +1,4 @@
 # Keychron Keyboards
-Keychron Launcher: https://launcher.keychron.com/
-
 Q1 Ultra 8K Wireless Silk POM Banana Switch
 Q11 QMK Custom Mechanicals Keyboard
 ## Default Key Bindings
@@ -8,7 +6,7 @@ Q11 QMK Custom Mechanicals Keyboard
 `fn + S` Decrease backlight brightness.
 `fn + Q` Change the lighting effect.
 `fn + tab` toggle backlight on/off.
-.
+
 ## Factory Reset & Firmware Update
 ### Factory Reset
 1. Power on the keyboard.
@@ -18,12 +16,12 @@ Q11 QMK Custom Mechanicals Keyboard
 2. Ensure the keyboard is in Cable/Wired mode and plug in the cable.
 3. Click 'Firmware Update' tab on the left side of the Launcher and connect your keybaord with it.
 4. Follow the onscreen  insctructions to update the firmware. 
-# VIA App
-Use VIA Website: https://usevia.app
-
 ## Editing Keys
 Make sure to edit layer 2 for default key bindings, and edit layer 3 for the `fn + key` bindings. 
-
+## VIA App
+Use VIA Website: https://usevia.app
+## Keychron Launcher 
+ https://launcher.keychron.com/
 ## Troubleshooting
 ```
 NotAllowedError: Failed to open the device.
