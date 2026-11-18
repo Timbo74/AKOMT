@@ -18,11 +18,11 @@ Q11 QMK Custom Mechanicals Keyboard
 4. Follow the onscreen  insctructions to update the firmware. 
 ## Editing Keys
 Make sure to edit layer 2 for default key bindings, and edit layer 3 for the `fn + key` bindings. 
-## VIA App
+### VIA App
 Use VIA Website: https://usevia.app
-## Keychron Launcher 
+### Keychron Launcher 
  https://launcher.keychron.com/
-## Troubleshooting
+### Troubleshooting
 ```
 NotAllowedError: Failed to open the device.
 Device: Keychron Keychron Q11
