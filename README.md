@@ -4,8 +4,6 @@ This is a long term repository for all things things nerdy, technical and fun th
 # TO DO
 ![[TODO.base]]
 
-
-
 # Notes
 ## Obsidian
 [Obsidian App](https://obsidian.md/)
