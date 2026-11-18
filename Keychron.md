@@ -1,10 +1,15 @@
 # Keychron Keyboards
+Keychron Launcher: https://launcher.keychron.com/
+
+Q1 Ultra 8K Wireless Silk POM Banana Switch
+Q11 QMK Custom Mechanical Keyboard
+# VIA App
 Use VIA Website: https://usevia.app
 
-## VIA: Editing Keys
-Make sure to edit layer 2.
+## Editing Keys
+Make sure to edit layer 2 for default key bindings, and edit layer 3 for the `fn + key` bindings. 
 
-## UseVIA.app Error messages
+## Troubleshooting
 ```
 NotAllowedError: Failed to open the device.
 Device: Keychron Keychron Q11
