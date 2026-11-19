@@ -1,6 +1,5 @@
 https://bitwarden.com/help/about-ssh/
 
-
 ## Import an Existing Key into Bitwarden
 1. Copy your key: Open your existing private SSH key file and copy its contents to your clipboard.
 	• Note: Make sure to include the header and footer blocks (e.g., `-----BEGIN OPENSSH PRIVATE KEY----- and -----END OPENSSH PRIVATE KEY-----`).
