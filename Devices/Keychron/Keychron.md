@@ -20,7 +20,7 @@ Q11 QMK Custom Mechanicals Keyboard
 1. Visit launcher.keychron.com.
 2. Ensure the keyboard is in Cable/Wired mode and plug in the cable.
 3. Click 'Firmware Update' tab on the left side of the Launcher and connect your keybaord with it.
-4. Follow the onscreen  insctructions to update the firmware. 
+4. Follow the onscreen  instructions to update the firmware. 
 ## Editing Keys
 Make sure to edit layer 2 for default key bindings, and edit layer 3 for the `fn + key` bindings. 
 ### VIA App
