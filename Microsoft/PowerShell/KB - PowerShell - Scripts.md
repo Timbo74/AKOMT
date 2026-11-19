@@ -79,3 +79,6 @@ $env:path –split ‘;’
 # adding a new path to the env:Path variable
 $env:Path += ';d:\scripts'
 ```
+
+# See Also
+[[KB - PowerShell]]
