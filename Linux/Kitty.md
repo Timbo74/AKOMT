@@ -14,6 +14,7 @@ Run the ```kitten choose-fonts``` command to use preview fonts and edit the ```k
 ### Titlebar in Gnome
 
 If the Kitty window is not rendering the native title for the window manager then add the following line to the ```kitty.conf`` file to force X11 mode.
+#Linux/Gnome
 
 ```
 inux_display_server x11
