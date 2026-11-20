@@ -16,3 +16,5 @@ ssh-copy-id -i <path to pub cert file> user@server.host.name
 ```
 chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys 
 ```
+
+#SSH #CLI

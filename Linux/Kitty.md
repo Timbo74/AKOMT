@@ -60,3 +60,5 @@ choose-fonts           edit-in-kitty          mouse-demo             quick-acces
 |Move window forward|```control + shift + f```|
 |Move window to top|```control + shift + ` ```|
 |Focus specific window|```control + shift + 1/2/3 etc```|
+
+#CLI #Linux 

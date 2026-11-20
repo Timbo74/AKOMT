@@ -20,3 +20,5 @@ Reference: [How to Link Obsidian Notes Together](https://www.google.com/url?sa=i
 
 # See Also
 [[Obsidian]]
+
+#Languages/Markdown

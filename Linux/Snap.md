@@ -10,4 +10,4 @@ snap connect gimp:personal-files :personal-files
 sudo snap connect gimp:home
 ```
 
-_Last updated: 2026-05-09_
+#CLI #Linux 

@@ -1,10 +1,10 @@
 # .bashrc
 ## alias
-```
+```bash
 alias cls=clear
 ```
 ## case conditional
-```
+```bash
 case "$VARIABLE" in
     pattern1)
         # Commands to execute if pattern1 matches
@@ -19,7 +19,7 @@ esac
 ```
 
 ## if conditional
-```
+```bash
 if [[ condition1 ]]; then
     # runs if condition1 is true
 elif [[ condition2 ]]; then
@@ -29,20 +29,20 @@ else
 fi
 ```
 ### Comparison Operators
-| Category | Operator | Description |
-| -------- | -------- | ----------- |
-| Numbers  | `-eq` / `-ne` | Equal / Not equal |
-|          | `-gt` / `-lt` | Greater than / Less than |
-| Strings  | `==` / `!=`   | Equal / Not equal |
-|          | `-z`          | String is empty |
+| Category | Operator      | Description                  |
+| -------- | ------------- | ---------------------------- |
+| Numbers  | `-eq` / `-ne` | Equal / Not equal            |
+|          | `-gt` / `-lt` | Greater than / Less than     |
+| Strings  | `==` / `!=`   | Equal / Not equal            |
+|          | `-z`          | String is empty              |
 | Files    | `-f`          | Exists and is a regular file |
-|          | `-d`          | Exists and is a directory |
+|          | `-d`          | Exists and is a directory    |
 
 More comparison operator [information here](https://www.gnu.org/software/bash/manual/html_node/Bash-Conditional-Expressions.html).
 
 #### Examples
 Checking that a file exists before sourcing it.
-```
+```bash
 if [[ -f ~/.bash_aliases ]]; then
     . ~/.bash_aliases
 fi
@@ -54,7 +54,7 @@ fi
  - **Arithmetic**: For purely numeric math comparisons, you can use double parentheses `(( ))`, which allows for standard math symbols like `>` or `==`.
 
 ## functions
-```
+```bash
 docker-bounce-follow() {
   docker-bounce
   docker logs $1 --follow
@@ -64,30 +64,30 @@ docker-bounce-follow() {
 # Environment Variables
 
 ## export
-```
+```bash
 ```
 
 ## printenv
-```
+```bash
 printenv
 printenv VARIABLE_NAME
 ```
 The most standard way to list environment variables. Running it without arguments displays all variables; you can also use printenv VARIABLE_NAME to see a specific one.
 
 ## env
-```
+```bash
 env
 ```
 Similarly lists all exported environment variables. It is often used to run a program in a modified environment, but alone it acts as a viewer.
 
 ## set
-```
+```bash
 set
 ```
 Lists all variables, including environment variables, local shell variables, and shell functions.
 
 ## declare
-```
+```bash
 declare -p
 ```
 Lists all variables in a format that shows how they were defined
@@ -103,12 +103,11 @@ CTRL+R ... (keep searching or)
 CTRL+S ... (search in the other direction*)
 ```
 
-Note: CTRL+S will suspend your terminal unless you explicitly revoked this behavior with
+Note: CTRL+S will suspend your terminal unless you explicitly revoked this behavior with the following in your `.bashrc`.
 
 ```bash
 [[ $- == *i* ]] && stty -ixon
 ```
 
-in your .bashrc
 
-_Last updated: 13/8/2026_
+#Linux #CLI #Languages/Bash
