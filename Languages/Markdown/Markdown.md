@@ -17,8 +17,7 @@ Reference: [How to Link Obsidian Notes Together](https://www.google.com/url?sa=i
 [[Note Title^block-id]]
 ```
 
-
 # See Also
 [[Obsidian]]
-
+# Tags
 #Languages/Markdown
