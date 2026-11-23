@@ -37,9 +37,7 @@ fi
 |          | `-z`          | String is empty              |
 | Files    | `-f`          | Exists and is a regular file |
 |          | `-d`          | Exists and is a directory    |
-
 More comparison operator [information here](https://www.gnu.org/software/bash/manual/html_node/Bash-Conditional-Expressions.html).
-
 #### Examples
 Checking that a file exists before sourcing it.
 ```bash
@@ -47,7 +45,6 @@ if [[ -f ~/.bash_aliases ]]; then
     . ~/.bash_aliases
 fi
 ```
-
 #### Important Tips
  - **Spacing**: You must have spaces between the brackets and the condition (e.g., `[[ $var == "val" ]])` or the script will fail.
  - **Double Brackets**: Use `[[ ... ]]` instead of single `[ ... ]` in modern Bash scripts for better string handling and fewer errors.
