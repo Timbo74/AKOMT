@@ -36,3 +36,5 @@ Depending on where you place the dot relative to the colon (:), it controls whet
 ### Other/Misc
 `Alt+w e f` toggle cell focus.
 `Alt+w v g` toggle cell grid.
+
+#Hotkeys 

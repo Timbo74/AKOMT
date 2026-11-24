@@ -50,6 +50,8 @@ d----           5/11/2026 10:21 AM                plugins
 | **Reopen Tab**       | Ctrl + Shift + T   |
 | **Navigate Back**    | Ctrl + Alt + Left  |
 | **Navigate Forward** | Ctrl + Alt + Right |
+|                      |                    |
+#Hotkeys 
 ## Notes 
 
 ### Git .gitignore 
@@ -70,4 +72,4 @@ Thumbs.db
 ## See Also
 [[Markdown]]
 ## Tags
-#Languages/Markdown 
+#Languages/Markdown
