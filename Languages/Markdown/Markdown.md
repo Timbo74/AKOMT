@@ -16,7 +16,17 @@ Reference: [How to Link Obsidian Notes Together](https://www.google.com/url?sa=i
 
 [[Note Title^block-id]]
 ```
+### External Links
+```markdown
+[Link Lable](URL)
+```
+### External Images
+```markdown
+![ALT Text](URL)
 
+![ALT Text|WIDTHxHEIGHT](URL)
+![ALT Text|WIDTH](URL)
+```
 # See Also
 [[Obsidian]]
 # Tags
