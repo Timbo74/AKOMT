@@ -1,4 +1,5 @@
-# Power Delivery Configurations
+# Satechi 165W USB-C 4 Port PD GaN Charger
+## Power Delivery Configurations
 
 | **Port** | **1 port** | **2 ports** | **3 ports** | **3ports** | **4 ports** |
 | -------- | ---------- | ----------- | ----------- | ---------- | ----------- |
