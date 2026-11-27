@@ -1,5 +1,3 @@
-# Veeam Backup & Replication
-
 ## Troubleshooting:
 
 ### Unable to connect to ADMIN$ on Host in Workgroup
